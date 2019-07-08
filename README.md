@@ -4,14 +4,14 @@ I am a Master's graduate from Queen's University of Belfast in Mechanical Engine
 
 ### See my work
 
-[SimpleCalc](https://mhey01.github.io/SimpleCalc/)
+- [SimpleCalc](https://mhey01.github.io/SimpleCalc/)
 
-[RockPaperScissors](https://mhey01.github.io/rockPaperScissorsGame/)
+- [RockPaperScissors](https://mhey01.github.io/rockPaperScissorsGame/)
 
-[DiceGame](https://mhey01.github.io/diceGame/)
+- [DiceGame](https://mhey01.github.io/diceGame/)
 
-[GoogleHomepageClone](https://mhey01.github.io/google-homepage/)
+- [GoogleHomepageClone](https://mhey01.github.io/google-homepage/)
 
 ### Check out my CodePen
 
-[CodePen](https://codepen.io/mhey01/#)
+- [CodePen](https://codepen.io/mhey01/#)
