@@ -9,6 +9,7 @@ I am a Master's graduate from Queen's University of Belfast in Mechanical Engine
 - [RockPaperScissors](https://mhey01.github.io/rockPaperScissorsGame/)
 
 - [DiceGame](https://mhey01.github.io/diceGame/)
+- [BasicDrum](https://mhey01.github.io/BasicDrum/)
 
 - [GoogleHomepageClone](https://mhey01.github.io/google-homepage/)
 
