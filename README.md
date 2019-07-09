@@ -1,6 +1,6 @@
 # Matthew Heywood
 
-I am a Master's graduate from Queen's University of Belfast in Mechanical Engineering and a prospective Front End Developer.
+I am a Master's graduate from Queen's University Belfast in Mechanical Engineering and a prospective Front End Developer.
 
 ### See my work
 
