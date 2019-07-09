@@ -4,17 +4,17 @@ I am a Master's graduate from Queen's University Belfast in Mechanical Engineeri
 
 ### See my work
 
-- [SimpleCalc](https://mhey01.github.io/SimpleCalc/)
+- [Simple Calculator](https://mhey01.github.io/SimpleCalc/)
 
-- [RockPaperScissors](https://mhey01.github.io/rockPaperScissorsGame/)
+- [Rock Paper Scissors](https://mhey01.github.io/rockPaperScissorsGame/)
 
-- [DiceGame](https://mhey01.github.io/diceGame/)
+- [Dice Game](https://mhey01.github.io/diceGame/)
 
-- [BasicDrum](https://mhey01.github.io/BasicDrum/)
+- [Basic Drum](https://mhey01.github.io/BasicDrum/)
 
 - [Clock](https://mhey01.github.io/Clock/)
 
-- [GoogleHomepageClone](https://mhey01.github.io/google-homepage/)
+- [Google Homepage Clone](https://mhey01.github.io/google-homepage/)
 
 ### Check out my CodePen
 
