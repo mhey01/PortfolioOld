@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+    color: #555;
+    background-color: rgb(245, 245, 245);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 100px 400px;
+}
+
+body a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+body a p {
+    padding: 10px 0;
+    border-top: 1px solid rgba(143, 143, 143, 0.425);
+    margin-top: 20px;
+}
+
+.titleBlock {
+    margin: 100px 0 100px 20px;
+}
+
+#title {
+    font-weight: 100;
+    color: black;
+    font-size: 50px;
+}
+
+#email {
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 10px 10px rgba(143, 143, 143, 0.425);
+    filter: brightness(90%);
+    transition: all 0.5s ease-out;
+}
+
+img:hover {
+    filter: brightness(100%);
+    transform: scale(1.5);
+  }
+
+.work {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+}
+
+#see {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#google {
+    grid-column: 2 / 3;
+}
