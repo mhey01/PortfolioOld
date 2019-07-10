@@ -112,6 +112,12 @@ img:hover {
   }
 
   @media only screen and (max-width: 360px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .titleBlock {
         margin: 0;
     }
@@ -131,18 +137,19 @@ img:hover {
     .about {
         font-size: 12px;
         margin-top: 20px;
-        text-align: center;
-        margin-left: 0;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
     }
 
     body {
-        margin: 20px 20px;
+        margin: 20px auto;
     }
 
     #see {
         margin-top: 10px;
         text-align: center;
-        margin-left: 0;
     }
 
     .work {
