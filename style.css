@@ -83,3 +83,85 @@ img:hover {
 #google {
     grid-column: 2 / 3;
 }
+
+@media only screen and (max-width: 1600px) {
+    .titleBlock {
+        margin: 0;
+    }
+    body {
+        margin: 80px 80px;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .titleBlock {
+        margin: 0;
+    }
+    body {
+        margin: 50px 50px;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+    .titleBlock {
+        margin: 0;
+    }
+    body {
+        margin: 20px 20px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .titleBlock {
+        margin: 0;
+    }
+
+    #title {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #email {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .about {
+        font-size: 12px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    body {
+        margin: 20px 20px;
+    }
+
+    #see {
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .work {
+        margin: 30px auto;
+        grid-template-columns: 1fr;
+    }
+
+    #google {
+        grid-column: auto;
+    }
+
+    img {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption {
+        text-align: center;
+    }
+  }
