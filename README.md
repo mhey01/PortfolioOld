@@ -4,6 +4,8 @@ I am a Master's graduate from Queen's University Belfast in Mechanical Engineeri
 
 ### See my work
 
+- [Budget App (Incomplete)](https://mhey01.github.io/budget-incomplete/)
+
 - [Simple Calculator](https://mhey01.github.io/SimpleCalc/)
 
 - [Rock Paper Scissors](https://mhey01.github.io/rockPaperScissorsGame/)
