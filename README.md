@@ -1,6 +1,6 @@
 # Matthew Heywood
 
-# See my portfolio webpage at https://mhey01.github.io/Portfolio/
+## See my webpage at https://mhey01.github.io/Portfolio/
 
 I am a Master's graduate from Queen's University Belfast in Mechanical Engineering and a prospective Front End Developer.
 
