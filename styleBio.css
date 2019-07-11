@@ -1,0 +1,13 @@
+.pBio {
+    padding-bottom: 20px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+#signoff {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 100px;
+}

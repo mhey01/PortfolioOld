@@ -1,0 +1,7 @@
+.contactLinks {
+    list-style: none;
+}
+
+.contactLinks li {
+    line-height: 1.8;
+}

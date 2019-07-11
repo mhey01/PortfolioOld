@@ -1,0 +1,39 @@
+.blogTitle {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.date {
+    font-size: 0.9em;
+    color: black;
+}
+
+.description {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(65, 63, 63, 0.726);
+}
+
+.blogLinkContainer {
+    padding-top: 25px;
+}
+
+.pBlogContent {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.pBlogContent:not(:first-child), #signoff {
+    padding-top: 20px;
+}
+
+.shameless {
+    font-size: 1em;
+}
+
+#signoff {
+    font-weight: bold;
+    padding-bottom: 100px;
+}
