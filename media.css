@@ -1,7 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media screen /* Attempting fix -> @media only screen to @media screen */
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (min-width : 300px) 
+and (max-width : 480px) {
 /* Styles */
     body a {
         font-size: 75%;
@@ -71,8 +71,8 @@ and (max-device-width : 480px) {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen 
-and (min-device-width : 480px) 
-and (max-device-width : 767px) {
+and (min-width : 480px) 
+and (max-width : 767px) {
 /* Styles */
     body a {
         font-size: 75%;
@@ -141,15 +141,84 @@ and (max-device-width : 767px) {
 }
 
 /* iPads (portrait and landscape) -----------  */
-/* @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) { */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1200px) {
 /* Styles */
+    body {
+        margin: auto 100px;
+    }
+
+    body a {
+        font-size: 75%;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-links a {
+        padding-left: 10px;
+    }
+
+    .titleBlock {
+        margin: 25px 0;
+    }
+
+    #title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #email {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 15px;
+    }
+
+    .iconLinks img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .about {
+        font-size: 0.65em;
+        text-align: center;
+    }
+
+    #see {
+        font-size: 1em;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .work {
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+
+    .code {
+        width: 210px;
+    } 
+}
 
 /* iPads (landscape) ----------- */
 @media screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+and (min-width : 768px) 
+and (max-width : 1024px) 
 and (orientation : landscape) {
     body {
         margin: auto 100px;
@@ -224,8 +293,8 @@ and (orientation : landscape) {
 
 /* iPads (portrait) ----------- */
 @media screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+and (min-width : 768px) 
+and (max-width : 1024px) 
 and (orientation : portrait) {
 /* Styles */
     body {
@@ -300,7 +369,7 @@ and (orientation : portrait) {
 
 /* Desktops and laptops ----------- */
 @media screen 
-and (min-width : 1224px) {
+and (min-width : 1201px) {
 /* Styles */
     body {
         margin: auto 250px;
@@ -446,7 +515,7 @@ and (min-width : 1824px) {
         margin: 75px auto;
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 3em;
-    }@media only screen
+    }
 
     .info {
         font-size: 1em;
