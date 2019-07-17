@@ -1,5 +1,5 @@
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media screen /* Attempting fix -> @media only screen to @media screen */
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
@@ -70,7 +70,7 @@ and (max-device-width : 480px) {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 480px) 
 and (max-device-width : 767px) {
 /* Styles */
@@ -147,7 +147,7 @@ and (max-device-width : 1024px) { */
 /* Styles */
 
 /* iPads (landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
@@ -223,7 +223,7 @@ and (orientation : landscape) {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
@@ -299,7 +299,7 @@ and (orientation : portrait) {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
+@media screen 
 and (min-width : 1224px) {
 /* Styles */
     body {
@@ -379,7 +379,7 @@ and (min-width : 1224px) {
 }
 
 /* Large screens ----------- */
-@media only screen 
+@media screen 
 and (min-width : 1824px) {
 /* Styles */
     body {
@@ -446,7 +446,7 @@ and (min-width : 1824px) {
         margin: 75px auto;
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 3em;
-    }
+    }@media only screen
 
     .info {
         font-size: 1em;
