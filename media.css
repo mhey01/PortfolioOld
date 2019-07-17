@@ -1,0 +1,392 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+    body a {
+        font-size: 75%;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-links a {
+        padding-left: 10px;
+    }
+
+    .titleBlock {
+        margin: 25px 0;
+    }
+
+    #title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #email {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 15px;
+    }
+
+    .iconLinks img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .about {
+        font-size: 0.65em;
+        text-align: center;
+    }
+
+    #see {
+        font-size: 1em;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .work {
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1em;
+    }
+
+    .code {
+        width: 210px;
+    } 
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    body {
+        margin: auto 100px;
+    }
+
+    body a {
+        font-size: 75%;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-links a {
+        padding-left: 10px;
+    }
+
+    .titleBlock {
+        margin: 25px 0;
+    }
+
+    #title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #email {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 15px;
+    }
+
+    .iconLinks img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .about {
+        font-size: 0.65em;
+        text-align: center;
+    }
+
+    #see {
+        font-size: 1em;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .work {
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+
+    .code {
+        width: 210px;
+    } 
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+    body {
+        margin: auto 100px;
+    }
+
+    body a {
+        font-size: 75%;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-links a {
+        padding-left: 10px;
+    }
+
+    .titleBlock {
+        margin: 25px 0;
+    }
+
+    #title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    #email {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 15px;
+    }
+
+    .iconLinks img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .about {
+        font-size: 0.65em;
+        text-align: center;
+    }
+
+    #see {
+        font-size: 1em;
+        margin-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .work {
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+
+    .code {
+        width: 210px;
+    } 
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    body {
+        margin: auto 250px;
+    }
+
+    body a {
+        font-size: 100%;
+    }
+
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .nav-links a {
+        padding-left: 20px;
+    }
+
+    .titleBlock {
+        margin: 50px 0;
+    }
+
+    #title {
+        font-size: 1.6em;
+        text-align: left;
+    }
+
+    #email {
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 25px;
+    }
+
+    .iconLinks img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tooltip {
+        display: inline-block;
+        font-size: 0.6em;
+    }
+
+    .about {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    #see {
+        font-size: 1em;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .work {
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 1.5em;
+    }
+
+    .caption {
+        font-size: 0.8em;
+    }
+
+    .code {
+        width: 210px;
+        font-size: 0.8em;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+    body {
+        margin: auto 350px;
+    }
+
+    body a {
+        font-size: 110%;
+    }
+
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .nav-links a {
+        padding-left: 20px;
+    }
+
+    .titleBlock {
+        margin: 75px 0;
+    }
+
+    #title {
+        font-size: 2.3em;
+        text-align: left;
+    }
+
+    #email {
+        font-size: 1.4em;
+        text-align: left;
+    }
+
+    .iconItem:not(:first-child), #signoff {
+        margin-left: 50px;
+    }
+
+    .iconLinks img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tooltip {
+        display: inline-block;
+        font-size: 0.8em;
+    }
+
+    .about {
+        font-size: 1.3em;
+        text-align: justify;
+    }
+
+    #see {
+        font-size: 1.2em;
+        margin-top: 75px;
+        padding-bottom: 75px;
+        text-align: left;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    .work {
+        margin: 75px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 3em;
+    }
+
+    .info {
+        font-size: 1em;
+    }
+    /* .caption {
+        font-size: 1em;
+    } */
+
+    .code {
+        width: 250px;
+        /* font-size: 1em; */
+    }
+}
